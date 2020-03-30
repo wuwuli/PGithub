@@ -1,0 +1,36 @@
+PODS:
+  - JYUtils (0.3.0):
+    - JYUtils/JYCategory (= 0.3.0)
+    - JYUtils/JYUtilities (= 0.3.0)
+    - JYUtils/JYWidget (= 0.3.0)
+  - JYUtils/JYCategory (0.3.0)
+  - JYUtils/JYUtilities (0.3.0):
+    - MBProgressHUD
+  - JYUtils/JYWidget (0.3.0):
+    - SDWebImage
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - SDWebImage (5.6.1):
+    - SDWebImage/Core (= 5.6.1)
+  - SDWebImage/Core (5.6.1)
+
+DEPENDENCIES:
+  - JYUtils
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - JYUtils
+    - Masonry
+    - MBProgressHUD
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  JYUtils: 150776f005e859f66c54bfae4cfe3cfafb654e5a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+
+PODFILE CHECKSUM: 7121dc79b7b1e197c5965c4d6ac5fb95155df3e9
+
+COCOAPODS: 1.8.4

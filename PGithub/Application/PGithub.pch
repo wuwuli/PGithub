@@ -1,0 +1,29 @@
+//
+//  PGithub.pch
+//  PGithub
+//
+//  Created by 吴紫颖 on 2020/3/27.
+//  Copyright © 2020 吴紫颖. All rights reserved.
+//
+
+#ifndef PGithub_pch
+#define PGithub_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+// Pod库
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+
+#import <Masonry.h>
+
+#import <JYUtils.h>
+
+#import "GlobalConstants.h"
+
+#endif
+
+#endif /* PGithub_pch */
