@@ -68,7 +68,7 @@
     tableView.delegate = delegate;
     tableView.dataSource = delegate;
     tableView.tableFooterView = [UIView new];
-    tableView.backgroundColor = [UIColor clearColor];
+    tableView.backgroundColor = kRGB(235, 235, 241);
     tableView.separatorColor = [UIColor lightGrayColor];
     tableView.showsVerticalScrollIndicator = NO;
     tableView.estimatedRowHeight = 0;

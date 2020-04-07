@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1626E5A624317DBF00AFAFED /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1626E5A524317DBF00AFAFED /* OneViewController.m */; };
 		1626E5A924317DD900AFAFED /* OneMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1626E5A824317DD900AFAFED /* OneMainView.m */; };
+		1626E5AF24318F3700AFAFED /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1626E5AE24318F3700AFAFED /* TwoViewController.m */; };
+		1626E5B224318F6200AFAFED /* TwoMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1626E5B124318F6200AFAFED /* TwoMainView.m */; };
 		1637F7B4242DFF91008B0A90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1637F7B3242DFF91008B0A90 /* AppDelegate.m */; };
 		1637F7BA242DFF91008B0A90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1637F7B9242DFF91008B0A90 /* ViewController.m */; };
 		1637F7BD242DFF91008B0A90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1637F7BB242DFF91008B0A90 /* Main.storyboard */; };
@@ -33,6 +35,10 @@
 		1626E5A724317DD900AFAFED /* OneMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneMainView.h; sourceTree = "<group>"; };
 		1626E5A824317DD900AFAFED /* OneMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneMainView.m; sourceTree = "<group>"; };
 		1626E5AB2431814400AFAFED /* GlobalConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConstants.h; sourceTree = "<group>"; };
+		1626E5AD24318F3700AFAFED /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		1626E5AE24318F3700AFAFED /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		1626E5B024318F6200AFAFED /* TwoMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoMainView.h; sourceTree = "<group>"; };
+		1626E5B124318F6200AFAFED /* TwoMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoMainView.m; sourceTree = "<group>"; };
 		1637F7AF242DFF91008B0A90 /* PGithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1637F7B2242DFF91008B0A90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1637F7B3242DFF91008B0A90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -212,6 +218,8 @@
 				1637F7F3242E063B008B0A90 /* HomeViewController.m */,
 				1626E5A424317DBF00AFAFED /* OneViewController.h */,
 				1626E5A524317DBF00AFAFED /* OneViewController.m */,
+				1626E5AD24318F3700AFAFED /* TwoViewController.h */,
+				1626E5AE24318F3700AFAFED /* TwoViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -230,6 +238,8 @@
 				1637F7F6242E064C008B0A90 /* HomeMainView.m */,
 				1626E5A724317DD900AFAFED /* OneMainView.h */,
 				1626E5A824317DD900AFAFED /* OneMainView.m */,
+				1626E5B024318F6200AFAFED /* TwoMainView.h */,
+				1626E5B124318F6200AFAFED /* TwoMainView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -348,7 +358,9 @@
 			files = (
 				1637F7E3242E039D008B0A90 /* BaseTableViewCell.m in Sources */,
 				1637F7E7242E039D008B0A90 /* BaseViewController.m in Sources */,
+				1626E5B224318F6200AFAFED /* TwoMainView.m in Sources */,
 				1637F7EB242E039D008B0A90 /* BaseMainViewModel.m in Sources */,
+				1626E5AF24318F3700AFAFED /* TwoViewController.m in Sources */,
 				1637F7BA242DFF91008B0A90 /* ViewController.m in Sources */,
 				1637F7B4242DFF91008B0A90 /* AppDelegate.m in Sources */,
 				1637F7E8242E039D008B0A90 /* BaseNavigationController.m in Sources */,

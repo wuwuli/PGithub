@@ -18,14 +18,13 @@
 @implementation HomeMainView
 #pragma mark - UITableViewDelegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return [self.arrayTitles count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     BaseTableViewCell *cell = [BaseTableViewCell cellWithTableView:tableView];
     
     cell.textLabel.text = self.arrayTitles[indexPath.row];
-    
     
     return cell;
 }
@@ -49,7 +48,7 @@
 #pragma mark - Setter & Getter
 - (NSArray *)arrayTitles {
     if (!_arrayTitles) {
-        _arrayTitles = @[@"button单选"];
+        _arrayTitles = @[@"button单选", @"tableView中每组进行单选"];
     }
     return _arrayTitles;
 }

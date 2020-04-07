@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "OneViewController.h"
+#import "TwoViewController.h"
 
 #import "HomeMainView.h"
 
@@ -31,6 +32,9 @@
     if (indexPath.row == 0) {
         OneViewController *oneVC = [[OneViewController alloc] init];
         [self.navigationController pushViewController:oneVC animated:YES];
+    } else if (indexPath.row == 1) {
+        TwoViewController *twoVC = [[TwoViewController alloc] init];
+        [self.navigationController pushViewController:twoVC animated:YES];
     }
 }
 
